@@ -72,6 +72,8 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+All of the races have a large percentage (at least 9%) between them in terms of the rates at which they favor or oppose capitol punishment as individual races.
+
 ## Now with More data
 
 
@@ -84,10 +86,11 @@ colPerc(table1)
 fisherXY(mydata$race,mydata$cappun, printAll = TRUE)
 ```
 
+The fisherXY function's many comparisons all confirm that there is a significant difference in the rate at which people of each race favor or oppose capitol punishment. The null hypothesis can be conpletely rejected as all three categories have significant differences in their opinions of capitol punishment.
 
 ## More data version
 
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
