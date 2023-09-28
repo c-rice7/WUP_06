@@ -51,7 +51,7 @@ A modified fisher test will be done for the inferential results using the fisher
 barchartGC(~race + cappun,data=mydata, type="percent")
 ```
 
-
+The data shows that for a comparison between the black and both the white and other race(s) it is likely safe to reject the null hypothesis however the null hypothesis as a whole cannot be rejected due to the very close rate of favoring and opposing capitol punishment in the white and other race(s).
 
 ## Now with LESS data (more variables give less data due to NA's) create the approate graphic displays to answer the question.
 
@@ -65,7 +65,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-
+The numerical data with the filtered initial data is notably similar to the unfiltered data in the master branch with the exception that the rate of favoring capitol punishment in the black race is quite a bit higher.
 
 ## Inferential Results
 
@@ -75,7 +75,7 @@ colPerc(table1)
 fisherXY(mydata$race,mydata$cappun, printAll = TRUE)
 ```
 
-
+In the filtered data the null hypothesis cannot be completely rejected based on the inferential data due to the statistically insignificant difference between the white and other race(s) with regards to their rates of favoring or opposing capitol punishment.
 
 # Discussion and Conclusion
 
