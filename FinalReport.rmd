@@ -31,6 +31,8 @@ $H_a$ The attitude towards capitol punishment varies based on race.
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
+Data for this analysis was filtered to exclude any persons who responded with "NA" to a number of other variables in the survey that we will not be examining.
+
 Data analysis on the opinion of towards capitol punishment with respect ot the race of the opinion holder will be done by a two way variable analysis of whether or not they favor or oppose capitol punishment versus their race. The two categorical data types will be analyzed using code blocks from the cat_cat helper file modified through the assistance of chatGPT.
 
 A modified fisher test will be done for the inferential results using the fisherXY r-function provided since there are more than two categories in race which makes a normal 2x2 comparison unuseful. 
@@ -77,4 +79,4 @@ fisherXY(mydata$race,mydata$cappun, printAll = TRUE)
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
