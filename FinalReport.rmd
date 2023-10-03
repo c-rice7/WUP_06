@@ -80,3 +80,5 @@ In the filtered data the null hypothesis cannot be completely rejected based on 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+There is no statistically significant difference between the opinion towards capitol punish between the white and other race(s) in the filtered data. The data only describes a significant difference between black and the other race/races in the filtered data so the null hypothesis cannot be completely rejected. Every form of data analysis performed supports these conclusions. The difference between the filtered and un filitered data sets is likley, at least in part, due to the much smaller sample size present in the filtered data.
