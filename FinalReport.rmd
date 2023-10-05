@@ -29,7 +29,7 @@ $H_a$ The attitude towards capitol punishment varies based on race.
 
 # Methods
 
-<!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
+<!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example sub-setting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
 Data for this analysis was filtered to exclude any persons who responded with "NA" to a number of other variables in the survey that we will not be examining.
 
